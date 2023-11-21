@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: url('https://i.postimg.cc/HLD5B3FW/age-To-Days.jpg') ;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+.container {
+    background: silver;
+    width: 290px;
+    height: 290px;
+    text-align: center;
+    border-radius: 30px;
+   position: relative;
+   top: 140px;
+}
+input {
+padding: 10px;
+border-radius: 10px;
+margin-top: 100px;
+text-align: center;
+font-size: 1.2rem
+}
+button {
+    margin: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+button:hover{
+    background: black;
+    color: white;
+    transition: all 0.5s ease-in-out ;
+}
+.answer {
+    padding: 30px;
+    background: red;
+}
