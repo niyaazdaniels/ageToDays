@@ -1,6 +1,6 @@
 
 function calAge () {
-    const daysInYear = 365;
+    const daysInYear = 365.25;
     let age = document.querySelector('#input').value;
     let ageInDays = age * daysInYear ;
 
